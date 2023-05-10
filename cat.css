@@ -1,15 +1,22 @@
 .container {
+    margin-top: 50px;
   display: flex;
   justify-content: center;
-  background-color: #181a1b;
+  background-color: white;
+  
 }
 .george {
   width: 500px;
   border-radius: 50px;
+  border: solid black 2px;
 }
 
 .infogeorge {
     margin-top: 20px;
     background-color: grey;
     text-align: center;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: solid black 2px;
   }
