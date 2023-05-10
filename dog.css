@@ -8,3 +8,9 @@
   height: 700px;
   border-radius: 50px;
 }
+
+.infofine {
+  margin-top: 20px;
+  background-color: grey;
+  text-align: center;
+}
