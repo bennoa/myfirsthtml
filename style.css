@@ -106,8 +106,7 @@ button:hover {
 }
 
 .navbar-divider {
-  margin-top: 50px;
-
+  top: 85px;
   border: none;
   border-top: 1px solid black;
 
