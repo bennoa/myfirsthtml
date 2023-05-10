@@ -1,4 +1,9 @@
-.george {width: 500px;
-    border-radius: 50px;
-    margin-left: 100px;
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #181a1b;
+}
+.george {
+  width: 500px;
+  border-radius: 50px;
 }
