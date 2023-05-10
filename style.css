@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #383c3f;
+  background-color: white;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -13,7 +13,7 @@ body {
   line-height: 80px;
   text-align: center;
   display: block;
-  margin top: 10px;
+  margin-top: 10px;
 }
 
 @keyframes blink {
@@ -54,16 +54,13 @@ button:hover {
   background-color: lightgrey;
   padding: 10px;
   height: 60px;
-  
 }
-
 
 .footer-element {
   display: inline-block;
   margin-left: 40px;
   margin-right: 40px;
 }
-
 
 .navbar-element {
   display: flex;
@@ -72,49 +69,71 @@ button:hover {
   padding-right: 30px;
   padding-top: 10px;
   height: 20px;
-  }
+}
 
-  .navbar-element a {
-    text-decoration: none;
-    color: black;
-  }
+.navbar-element a {
+  text-decoration: none;
+  color: black;
+}
 
 .logo-image {
   display: inline-block;
   height: 50px;
-  }
+}
 
 .logo-picture {
   padding-left: 10px;
   padding-right: 50px;
   height: 40px;
   margin-bottom: 8px;
-  
 }
 
 .navbar {
   background-color: white;
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 .navbar-wrapper {
   background-color: white;
   position: fixed;
   width: 100%;
-  top: 10px;
+  top: 0px;
   height: 75px;
   align-items: center;
   display: flex;
   justify-content: center;
-  
-  }
+  z-index: 999;
+}
 
 .navbar-divider {
-  
   margin-top: 50px;
-  
+
   border: none;
   border-top: 1px solid black;
 
   position: sticky;
+  z-index: 999;
+}
+
+.kontaktfont {
+  color: aqua;
+  margin-left: 15px;
+}
+.kontakt {
+  text-align: center;
+}
+input {
+  font-size: 18pt;
+  border-radius: 10px;
+}
+textarea {
+  font-size: 14pt;
+  border-radius: 10px;
+}
+.submitbutton {
+  transition-duration: 0.4s;
+}
+.submitbutton:hover {
+  background-color: #4caf50;
+  color: white;
 }
