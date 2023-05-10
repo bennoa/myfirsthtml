@@ -1,26 +1,27 @@
 .kontaktfont {
-    font-size: xx-large;
-    color: rgb(49, 58, 58);
-    text-align: center;
-    margin-top: 50px;
-  }
-  .kontakt {
-    text-align: center;
-  }
-  input {
-    font-size: 18pt;
-    border-radius: 10px;
-  }
-  textarea {
-    font-size: 14pt;
-    border-radius: 10px;
-  }
-  
-  .submitbutton:hover {
-    background-color: #4caf50;
-    color: white;
-  }
-  .submitbutton {
-    transition-duration: 0.4s;
-  }
-  
+  font-size: xx-large;
+  color: rgb(49, 58, 58);
+  text-align: center;
+  margin-top: 50px;
+}
+.kontakt {
+  text-align: center;
+}
+input {
+  font-size: 18pt;
+  border-radius: 10px;
+}
+textarea {
+  font-size: 14pt;
+  border-radius: 10px;
+}
+
+.submitbutton:hover {
+  background-color: grey;
+  color: white;
+  box-shadow: 2px 2px 5px black;
+}
+.submitbutton {
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
