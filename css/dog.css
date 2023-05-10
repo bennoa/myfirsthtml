@@ -6,7 +6,7 @@
 }
 
 .fine {
-  height: 700px;
+  height: 500px;
   border-radius: 50px;
   border: solid black 2px;
 }
@@ -16,7 +16,8 @@
   background-color: grey;
   text-align: center;
   border-radius: 5px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 300px;
+  margin-right: 300px;
   border: solid black 2px;
+  margin-bottom: 100px;
 }

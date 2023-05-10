@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.navbar-element {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 100px;
+  padding-top: 10px;
+  height: 20px;
+}
+
+.navbar-element a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.logo-image {
+  display: inline-block;
+  height: 50px;
+}
+
+.logo-picture {
+  padding-left: 10px;
+  padding-right: 220px;
+  height: 40px;
+  margin-bottom: 7px;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-wrapper {
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  height: 85px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.navbar-divider {
+  top: 85px;
+  border: none;
+  border-top: 3px solid black;
+  position: sticky;
+  z-index: 999;
+}
+
+.headline-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+  margin-bottom: 50px;
+  border: solid black 1px;
+  border-radius: 5px;
+  background-color: grey;
+  margin-left: 330px;
+  margin-right: 330px;
+}
+
+button {
+  height: 999px;
+  width: 999px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: grey;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+button:hover {
+  opacity: 0.7;
+  box-shadow: 10px 10px 20px black;
+}
+
+.button-picture {
+  margin-left: 60px;
+  height: 220px;
+}
+.learn-button-picture {
+  margin-left: 30px;
+}
+.nav-button {
+  height: 50px;
+  width: 150px;
+  margin-top: 30px;
+}
+.nav-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.button-image-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.interests-container {
+  margin-bottom: 100px;
+}
+
+.banner {
+  background-color: red;
+  color: black;
+  border-radius: 10px;
+  line-height: 80px;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.2;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+.footer-element {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
