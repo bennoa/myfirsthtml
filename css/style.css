@@ -41,8 +41,8 @@ body {
 .navbar {
   background-color: white;
   display: flex;
-  justify-content: center;   /*vertical positioning - main axis*/
-  align-items: center;       /*horizontal positioning - cross axis*/
+  justify-content: center; /*vertical positioning - main axis*/
+  align-items: center; /*horizontal positioning - cross axis*/
   width: 100%;
   margin-right: 140px;
 }
@@ -61,9 +61,9 @@ body {
 
 .navbar-divider {
   top: 85px;
-  border: none;     /*defaults weg - dann eigene Änderungen*/
+  border: none; /*defaults weg - dann eigene Änderungen*/
   border-top: 3px solid black;
-  position: sticky;  /*sticky statt fixed für <hr>*/
+  position: sticky; /*sticky statt fixed für <hr>*/
   z-index: 999;
   width: 100%;
 }
@@ -85,7 +85,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 
 button {
   height: 999px;
@@ -139,7 +138,7 @@ button:hover {
 }
 
 .button-image-container {
-padding-left: 30px;
+  padding-left: 30px;
 }
 .interests-container {
   margin-bottom: 100px;
@@ -174,7 +173,6 @@ padding-left: 30px;
   background-color: lightgrey;
   padding: 10px;
 }
-
 
 .footer-element {
   display: inline-block;

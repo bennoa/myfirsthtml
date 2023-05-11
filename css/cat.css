@@ -1,9 +1,8 @@
 .container {
-    margin-top: 50px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   background-color: white;
-  
 }
 .george {
   height: 500px;
@@ -12,12 +11,12 @@
 }
 
 .infogeorge {
-    margin-top: 20px;
-    background-color: grey;
-    text-align: center;
-    border-radius: 5px;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: solid black 2px;
-    margin-bottom: 100px;
-  }
+  margin-top: 20px;
+  background-color: grey;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border: solid black 2px;
+  margin-bottom: 100px;
+}
